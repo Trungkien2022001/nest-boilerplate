@@ -4,6 +4,11 @@ export enum EUserType {
   PUBLIC = 'PUBLIC',
 }
 
+export enum ERoles {
+  USER = 'USER',
+  ADMIN = 'ADMIN',
+}
+
 export enum EGender {
   MALE = 'MALE',
   FEMALE = 'FEMALE',

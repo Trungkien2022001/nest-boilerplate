@@ -26,6 +26,8 @@ export const BASE_URL = process.env.BASE_URL || 'http://localhost:3000/';
 export const SECRET_KEY_SEND_GMAIL =
   process.env.SECRET_KEY_SEND_GMAIL || '57ec1978-ddad-48b6-8db7-88123a8da5c2';
 export const OTP_TIME_EXPIRE = +process.env.OTP_TIME_EXPIRE || 300;
+export const SECRET_UPLOAD: string =
+  process.env.SECRET_UPLOAD || '0343b23f-80d7-40ec-905b-43ab0691a70f';
 
 // AWS
 export const AWS_ACCESS_KEY_ID =
@@ -48,6 +50,12 @@ export const REDIS_PORT = +process.env.REDIS_PORT || 6379;
 export const REDIS_PASSWORD = process.env.REDIS_PASSWORD || '';
 export const REDIS_DB = +process.env.REDIS_DB || 0;
 export const PREFIX_KEY = process.env.PREFIX_KEY || '';
+
+// Send-email
+export const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'example@gmail.com';
+export const ADMIN_PASSWORD_EMAIL =
+  process.env.ADMIN_PASSWORD_EMAIL || 'abc+=123';
+export const ADMIN_EMAIL_NAME = process.env.ADMIN_EMAIL_NAME || 'abc+=123';
 
 // Terms and policy
 export const VERSION_TERMS_AND_POLICY =
