@@ -1,0 +1,110 @@
+{
+  "AUTH": {
+    "USER_NOT_FOUND": "Email or password is incorrect. Please try again!",
+    "VALIDATE_MIN_LENGTH_EMAIL": "The Email must be between 16 and 100 characters long",
+    "VALIDATE_MAX_LENGTH_EMAIL": "The Email field no more than 255 characters",
+    "REQUIRE_FIELD_EMAIL": "The Email field is required",
+    "VALIDATE_MAX_LENGTH_PASSWORD": "The Password field is less than 32 characters",
+    "VALIDATE_MIN_LENGTH_PASSWORD": "The Password field is from 8 characters or more",
+    "REQUIRE_FIELD_PASSWORD": "This Password field is required",
+    "INVALID_PASSWORD": "Email or password is incorrect. Please try again!",
+    "SAME_PASSWORD": "The new password must not be the same as the old password",
+    "INVALID_EMAIL_FORMAT": "Invalid email format. Please try again",
+    "TOKEN_IS_INVALID": "Token is invalid"
+  },
+  "APPLICATION": {
+    "HASH_IS_NOT_CORRECT": "Hash is not correct. Please try again!",
+    "VERIFY_FAIL": "Authentication failed. Please try again !",
+    "HASH_NO_VERIFIED": "Hash is not be verified",
+    "HASH_EXPIRED": "Hash is expired. Please try again",
+    "HASH_EMPTY": "Has cannot be empty",
+    "CURRENT_PASS_NOT_MATCH": "The current password is incorrect !",
+    "SUCCESSFULLY": "Successfully",
+    "EMAIL_NOT_EXIST": "This email does not exist"
+  },
+  "SYSTEM": {
+    "BAD_REQUEST": "Bad request",
+    "SOMETHING_WENT_WRONG": "Something went wrong"
+  },
+  "USER": {
+    "FIRST_NAME_NOT_EMPTY": "First name cannot be empty",
+    "FIRST_NAME_MAX_LENGTH": "First name {max} characters",
+    "LAST_NAME_NOT_EMPTY": "Last name cannot be empty",
+    "LAST_NAME_MAX_LENGTH": "Last name {max} characters",
+    "PASSWORD_NOT_EMPTY": "Password cannot be empty",
+    "PASSWORD_MIN_LENGTH": "Password min {min} characters",
+    "PASSWORD_MAX_LENGTH": "Password max {max} characters",
+    "PASSWORD_FORMAT_INCORRECT": "Password format incorrect",
+    "REGION_CODE_NOT_EMPTY": "Region code cannot be empty",
+    "REGION_CODE_INCORRECT": "Region code incorrect",
+    "PHONE_NUMBER_NOT_EMPTY": "Phone number cannot be empty",
+    "PHONE_NUMBER_MIN_LENGTH": "Phone number min {min} characters",
+    "PHONE_NUMBER_MAX_LENGTH": "Phone number max {max} characters",
+    "USER_IS_BLOCKED": "Account has been locked. Please try again",
+    "USER_IS_NOT_ACTIVE": "This account is not active, please contact admin for more information. Email: {email}, phone number: {phoneNumber}",
+    "USER_IS_FROZEN": "Account has been frozen. You cannot enter offer",
+    "NOT_CREATE_OR_UPDATE_USER_STATUS_FROZEN":"Not allow create or update user status to frozen"
+  },
+  "EMAIL": {
+    "EMAIL_NOT_EMPTY": "Email cannot be empty",
+    "EMAIL_FORMAT_INCORRECT": "Email format incorrect",
+    "EMAIL_INCORRECT": "Email incorrect",
+    "EMAIL_MAX_LENGTH": "Email {max} characters",
+    "EMAIL_EXISTED": "The email already existed in system. Please try enter other email address"
+  },
+  "COMPANY": {
+    "COMPANY_VAT_ID_NOT_EMPTY": "Company vat id cannot be empty",
+    "COMPANY_VAT_ID_MAX_LENGTH": "Company vat id max {max} characters",
+    "COMPANY_NAME_NOT_EMPTY": "Company name cannot be empty",
+    "COMPANY_NAME_MAX_LENGTH": "Company name max {max} characters",
+    "COMPANY_LOGO_NOT_EMPTY": "Company logo cannot be empty",
+    "COMPANY_LOGO_TITLE_NOT_EMPTY": "Company logo title cannot be empty",
+    "COMPANY_REGISTRATION_NOT_EMPTY": "Company registration cannot be empty",
+    "COMPANY_REGISTRATION_MAX_FILE": "Company registration max {max} files",
+    "COMPANY_VAT_ID_EXISTED": "Company vat id existed",
+    "COMPANY_NAME_EXISTED": "Company name existed",
+    "COMPANY_INDUSTRY_NOT_EXISTED": "Company industry does not existed",
+    "FORMAT_COMPANY_INDUSTRY_INCORRECT": "Format company industry incorrect",
+    "COMPANY_INDUSTRY_OTHER_NOT_EMPTY": "Company industry other cannot be empty",
+    "COMPANY_INDUSTRY_OTHER_MAX_LENGTH": "Company industry other max {max} characters"
+  },
+  "COUNTRY": {
+    "COUNTRY_NOT_EMPTY": "Country cannot be empty",
+    "COUNTRY_NOT_EXISTED": "Country not exist"
+  },
+  "CONTACT_US": {
+    "GROUP_NAME_NOT_EMPTY": "Group name cannot be empty",
+    "GROUP_NAME_MAX_LENGTH": "Group name max {max} characters",
+    "REPRESENTATIVE_NOT_EMPTY": "Representative cannot be empty",
+    "REPRESENTATIVE_MAX_LENGTH": "Representative max {max} characters",
+    "EMAIL_NOT_EMPTY": "Email cannot be empty",
+    "EMAIL_MAX_LENGTH": "Email max {max} characters",
+    "PHONE_NOT_EMPTY": "Phone cannot be empty",
+    "PHONE_MAX_LENGTH": "Phone max {max} characters",
+    "MESSAGE_NOT_EMPTY": "Message cannot be empty",
+    "MESSAGE_MAX_LENGTH": "Message max {max} characters",
+    "SUBMIT_SUCCESS": "Submit contact successfully",
+    "CONTACT_US_NOT_FOUND": "The contact us information not found"
+  },
+  "OTP": {
+    "OTP_TIMEOUT": "Your OTP code has expired",
+    "OTP_INVALID": "Invalid OTP code",
+    "WRONG_OTP_CODE": "The otp code is incorrect, please enter the number !",
+    "OVERTIME_SCAN_OTP": "OTP entries have been exceeded. Please try again after 10 minutes"
+  },
+  "CHAT": {
+    "NOT_FOUND": "Chat does not found",
+    "DOCUMENT_TITLE_NOT_EMPTY": "Document title cannot be empty",
+    "DOCUMENT_URL_NOT_EMPTY": "Document url cannot be empty",
+    "DOCUMENT_TYPE_NOT_EMPTY": "Document type cannot be empty",
+    "MESSAGE_NOT_EMPTY": "Message cannot be empty",
+    "CHAT_ID_NOT_EMPTY": "Chat id cannot be empty"
+  },
+  "TERM_AND_CONDITION": {
+    "TERM_AND_CONDITION": "Term and condition cannot be empty",
+    "UPLOAD_SUCCESS": "Upload term and condition successfully"
+  },
+  "INVOICE": {
+    "NOT_FOUND": "Invoice not found. Please try again"
+  }
+}
