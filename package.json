@@ -1,10 +1,10 @@
 {
   "name": "nest-boilerplate",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "KienNguyen Boilerplate",
+  "author": "nguyenkien2022001@gmail.com",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",

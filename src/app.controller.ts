@@ -7,6 +7,6 @@ export class AppController {
   @Get()
   @HttpCode(200)
   healthCheck(): string {
-    return 'Kien Trung Team!';
+    return 'Kien Nguyen Team!';
   }
 }
