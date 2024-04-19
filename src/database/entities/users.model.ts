@@ -20,17 +20,20 @@ export class User extends Model {
   @Column({ primaryKey: true, autoIncrement: true })
   id: number;
 
-  @Column
-  firstName: string;
+  @Column({field: 'first_name'})
+  first_name: string;
 
   @Column
-  lastName: string;
+  last_name: string;
 
   @Column
   email: string;
 
   @Column
-  avatarUrl: string;
+  phone_number: string;
+
+  @Column
+  avatar_url: string;
 
   @Column
   password: string;
@@ -42,27 +45,24 @@ export class User extends Model {
   status: string;
 
   @Column
-  currentRole: string;
+  current_role: string;
 
   @Column
-  createdBy: number;
+  created_by: number;
 
   @Column
-  createdAt: Date;
+  created_at: Date;
 
   @Column
-  updatedAt: Date;
-
-  @Column
-  updatedBy: number;
+  updated_at: Date;
 
   @BelongsToMany(() => Role, () => UserRole)
   roles: Role[];
 
   @Column
-  deletedAt: Date;
+  deleted_at: Date;
 
   @Column
-  isVerified: boolean;
+  is_verified: boolean;
 
 }

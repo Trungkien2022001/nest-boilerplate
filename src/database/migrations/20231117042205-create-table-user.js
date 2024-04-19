@@ -50,7 +50,7 @@ module.exports = {
         type: Sequelize.STRING,
       },
       phone_number: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.STRING,
       },
       is_active: {

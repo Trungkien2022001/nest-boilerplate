@@ -39,7 +39,7 @@ export const S3_REGION = process.env.S3_REGION || 'S3_REGION';
 export const MYSQL_HOST = process.env.MYSQL_HOST || 'localhost';
 export const MYSQL_PORT = +process.env.MYSQL_PORT || 3306;
 export const MYSQL_USERNAME = process.env.MYSQL_USERNAME || 'mysql';
-export const MYSQL_PASSWORD = process.env.MYSQL_PASSWORD || 'password';
+export const MYSQL_PASSWORD = process.env.MYSQL_PASSWORD || '';
 export const MYSQL_DATABASE = process.env.MYSQL_DATABASE || 'base';
 
 // Redis

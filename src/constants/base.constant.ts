@@ -12,7 +12,7 @@ export const ROLES_KEY = 'ROLES';
 export const EXTNAME_PDF = '.pdf';
 export const PASSWORD_PATTERN =
   /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[?!@#\$%\^\&*\)\(+=._-])(?=\S+$).{8,32}$/;
-
+export const HASH_KEY_AES = '982c917f-9f3b-4d53-964a-8de667a4e21f';
 export const LANG_OPTIONS = {
   EN: 'en',
   VI: 'vi',

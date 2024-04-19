@@ -1,8 +1,7 @@
 /* eslint-disable @typescript-eslint/quotes */
 import { InjectRedis, Redis } from '@nestjs-modules/ioredis';
 import { Injectable } from '@nestjs/common';
-
-import { CommonHelper } from '../../helpers';
+import { CommonHelper } from 'src/helpers';
 
 @Injectable()
 export class RedisService {
